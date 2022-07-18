@@ -1,0 +1,2 @@
+# GraphRC
+Graph reservoir computing
