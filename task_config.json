@@ -1,0 +1,91 @@
+{
+    "METR_LA": {
+        "Original": {
+            "Dr": 12,
+            "rho_R": 0.1,
+            "rho_I": 1.0,
+            "b": -0.10,
+		    "delta": 0.5,
+            "density_input": 0.1,
+			
+        },
+        "Attention": {
+            "Dr": 12,
+            "rho_R": 0.01,
+            "rho_I": 1.0,
+            "b": 0.10,
+		    "delta": 1.0,
+            "density_input": 0.01,
+			"Att_N":3,
+			"M_K":0.5,
+        }
+    },
+	
+    "PEMS_BAY": {
+        "Original": {
+            "Dr": 12,
+            "rho_R": 0.05,
+            "rho_I": 1.0,
+            "b": -0.05,
+		    "delta": 0.50,
+            "density_input": 0.10,
+			
+        },
+        "Attention": {
+            "Dr": 12,
+            "rho_R": 0.001,
+            "rho_I": 1.00,
+            "b": -0.50,
+		    "delta": 0.001,
+            "density_input": 0.01,
+			"Att_N":3,
+			"M_K":0.5,
+        }
+    },
+	
+	"SZ_TAXI": {
+        "Original": {
+            "Dr": 12,
+            "rho_R": 0.002,
+            "rho_I": 0.002,
+            "b": -0.01,
+		    "delta": 0.001,
+            "density_input": 0.1,
+			
+        },
+        "Attention": {
+            "Dr": 12,
+            "rho_R": 0.002,
+            "rho_I": 0.004,
+            "b": 0.05,
+		    "delta": 0.01,
+            "density_input": 0.7,
+			"Att_N":3,
+			"M_K":0.1,
+        }
+    },
+	
+	"Lorenz96": {
+        "Original": {
+            "Dr": 200,
+            "rho_R": 0.89,
+            "rho_I": 0.84,
+            "b": 0.478,
+		    "delta": 0.80,
+            "density_input": 0.80,
+			
+        },
+        "Attention": {
+            "Dr": 12,
+            "rho_R": 0.47,
+            "rho_I": 1.816,
+            "b": 0.692,
+		    "delta": 1.534,
+            "density_input": 0.4,
+			"Att_N":3,
+			"M_K":0.5,
+        }
+    },
+    
+    
+}
